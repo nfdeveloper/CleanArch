@@ -36,7 +36,7 @@ namespace CleanArch.Domain.Entities
                 "Nome da Categoria é obrigatório.");
 
             DomainExceptionValidation.When(name.Length < 3,
-                "Nome da Categoria tem que ser maior que 3 caracteres");
+                "Nome da Categoria tem que ser maior que 3 caracteres.");
 
             Name = name;
         }
